@@ -2,8 +2,6 @@ import streamlit as st
 from datetime import time
 import pandas as pd
 import numpy as np
-import docx
-import PyPDF2
 import markdown
 import base64
 
