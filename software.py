@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import time
 import pandas as pd
 import numpy as np
-import markdown
+
 import base64
 
 from datetime import date
@@ -228,9 +228,9 @@ AgGrid(df, gridOptions=vgo,  columns_auto_size_mode=ColumnsAutoSizeMode.FIT_CONT
 
 
 
-st.markdown("<h4 style='text-align: center; color: black;'>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h4>", unsafe_allow_html=True)
-st.markdown("<h5 style='text-align: center; color: black;'>Độc lập – Tự do – Hạnh phúc</h5>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align: center; color: black;'>HỢP ĐỒNG CHO VAY TIỀN</h4>", unsafe_allow_html=True)
+#st.markdown("<h4 style='text-align: center; color: black;'>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h4>", unsafe_allow_html=True)
+#st.markdown("<h5 style='text-align: center; color: black;'>Độc lập – Tự do – Hạnh phúc</h5>", unsafe_allow_html=True)
+#st.markdown("<h4 style='text-align: center; color: black;'>HỢP ĐỒNG CHO VAY TIỀN</h4>", unsafe_allow_html=True)
 st.write("Hôm nay, ngày ", today.day,"tháng ", today.month, "năm ", today.year)
 st.write("*Chúng tôi gồm có:*")
 st.write("**Bên A:**", lender)
@@ -252,12 +252,12 @@ st.write("8. Hai bên cam kết ký hợp đồng trong trạng thái tinh thầ
 st.write("9. Hợp đồng này có hiệu kể từ ngày ký và được lập thành 02 (hai) bản, mỗi bên giữ 01 (một) bản có giá trị pháp lý ngang nhau.")
 col1, col2 = st.columns(2)
 with col1:
-    st.markdown("<h6 style='text-align: center; color: black;'>ĐẠI DIỆN BÊN A</h6>", unsafe_allow_html=True)
+    #st.markdown("<h6 style='text-align: center; color: black;'>ĐẠI DIỆN BÊN A</h6>", unsafe_allow_html=True)
     #picture = st.camera_input("Take a picture")
     #if picture:
     #    st.image(picture)
 with col2:
-    st.markdown("<h6 style='text-align: center; color: black;'>ĐẠI DIỆN BÊN B</h6>", unsafe_allow_html=True)
+    #st.markdown("<h6 style='text-align: center; color: black;'>ĐẠI DIỆN BÊN B</h6>", unsafe_allow_html=True)
     
 
 
