@@ -9,6 +9,7 @@ imageio
 tabulate
 sklearn
 gsheetsdb
+markdown
 youtube_transcript_api
 yfinance
 patsy
