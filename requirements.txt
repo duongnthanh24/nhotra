@@ -3,6 +3,7 @@ matplotlib
 numpy==1.18.1
 pandas
 seaborn
+Markdown==3.2.1
 plotly
 lmfit
 imageio
