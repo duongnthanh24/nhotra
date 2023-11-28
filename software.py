@@ -1,6 +1,5 @@
 import streamlit as st
 from datetime import time
-from colorama import Fore
 import pandas as pd
 import numpy as np
 import docx
